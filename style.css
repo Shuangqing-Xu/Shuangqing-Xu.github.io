@@ -1,0 +1,89 @@
+body {
+  font-size: 17px;
+  font-family: Arial;
+}
+
+h2 {
+  /* 设置 H2 的通用字体为 Calibri (应用于英文名) */
+  font-family: "Calibri", sans-serif; 
+  letter-spacing: -0.5px; 
+  margin-top: 0px;
+  font-size: 26px;
+}
+
+.cn-name {
+  /* 专门应用于中文名，使用楷体 (KaiTi) */
+  font-family: "KaiTi", "Kaiti SC", "STKaiti", "BiauKai", sans-serif;
+}
+
+h3 {
+  margin-top: 24px;
+  margin-bottom: 4px;
+}
+
+a, a:visited {
+  font-weight: bold;
+  text-decoration: none;
+  color: #800;
+}
+
+a:hover {
+  font-weight: bold;
+  text-decoration: none;
+  color: #000000;
+}
+
+a:active {
+  font-weight: bold;
+  text-decoration: none;
+  color: #464646;
+}
+
+table {
+  font-size: 100%;
+}
+
+
+#wrapper {
+  margin: 50px;
+}
+
+#header {
+  float: left; /* 保持不动 */
+  
+}
+
+#photo {
+  float: left; /* 改为浮动到左侧 */
+  padding: 0px 20px 20px 0px; /* 调整 padding: 右侧留出 20px 空间 */
+}
+
+#content {
+  clear: both;
+}
+
+ul {
+    padding-left: 15px;
+}​
+
+ul li {
+  margin: 0px;
+  padding: 0px;
+}
+/* 通用会议标签样式 */
+.conf-tag {
+    color: white !important; /* 文字颜色为白色 */
+    background-color: #9C2711; /* 默认背景颜色（绿色）*/
+    font-size: 16px; /* 字体大小略小于正文 */
+    font-weight: bold;
+    padding: 1px 4px; /* 上下左右内边距 */
+    border-radius: 4px; /* 轻微圆角 */
+    /* 确保标签在行内显示，并稍微向上对齐 */
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 1; 
+}
+/* CCS 标签颜色 (绿色) */
+.conf-tag.ccs {
+    background-color: #9E4734; 
+}
